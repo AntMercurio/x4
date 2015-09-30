@@ -1,0 +1,22 @@
+//size
+
+int r,g,b;
+void setup(){
+  size( 640,480);
+  r=  100;
+  g= 200;
+  b= 255;
+}
+///button
+void draw() {
+  background ( r, g, b );
+  fill(50,150);
+  rect(20,50,100,200);
+}
+
+
+////// click
+void mousePressed(){
+  if ( hit(mouseX,mouseY, r, g, b))
+
+} 
