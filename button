@@ -1,7 +1,7 @@
 //size
 
 int r,g,b;
-float button1X=250, button1Y=250, button1Z=100, button1XY=70;
+float button1X=250, button1Y=250, button1Z=100, button1XY=90;
 void setup(){
   size( 640,480);
   r=  100;
